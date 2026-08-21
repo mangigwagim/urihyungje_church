@@ -1,0 +1,8 @@
+{
+  "name": "우리형제교회",
+  "description": "우리형제교회 공식 웹사이트 및 설교, 주보, 공지, 디자인 테마, SEO 통합 관리 CMS 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
