@@ -3,7 +3,7 @@ import { ChurchInfo, Sermon, BulletinItem, NewsPost, GalleryItem, PrayerRequest 
 export const INITIAL_CHURCH_INFO: ChurchInfo = {
   name: '우리형제교회',
   denomination: '대한예수교장로회',
-  slogan: 'In Christ Alone - 오직 그리스도 안에',
+  slogan: 'Way Maker - 길을 만드시는 주',
   sloganVerse: '보라 내가 새 일을 행하리니 이제 나타낼 것이라 너희가 그것을 알지 못하겠느냐 반드시 내가 광야에 길을 사막에 강을 내리니',
   sloganVerseReference: '이사야 43:19',
   visionStatements: [
@@ -170,12 +170,12 @@ export const INITIAL_CHURCH_INFO: ChurchInfo = {
     bandUrl: 'https://band.us/@wooribrother',
   },
   seo: {
-    siteTitle: '우리형제교회 | 인천 영종하늘도시 선교적 교회 (In Christ Alone)',
+    siteTitle: '우리형제교회 | 인천 영종하늘도시 선교적 교회 (Way Maker)',
     metaDescription: '대한예수교장로회 영종도 우리형제교회 공식 홈페이지. 담임목사 이재진, 주일예배 11시, 주일학교 10시, 금요기도회 8시 반, 주보, 설교영상 및 말씀 스케치.',
-    metaKeywords: '우리형제교회, 영종도교회, 영종하늘도시교회, 이재진목사, 장로교회, InChristAlone, 선교적교회, 주일예배, 2분그림설교, 말씀스케치',
+    metaKeywords: '우리형제교회, 영종도교회, 영종하늘도시교회, 이재진목사, 장로교회, WayMaker, 선교적교회, 주일예배, 2분그림설교, 말씀스케치',
     ogImageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyNjAxMDNfMTM0/MDAxNzY3MzY2MDc2OTQy.iutbljvzMYsdkmQcesmhizaTu5kmCp1oo0S1MAOUvmog.8C1P-XxwUzLrWCbnHbM-8pZFf8YzzKtNJq9683spKQIg.PNG/croppedMobileTitleImage.png?type=w800',
     naverVerificationCode: 'naver-site-verification=ljj617woorichurch',
-    googleVerificationCode: 'google-site-verification=InChristAloneWooriChurch',
+    googleVerificationCode: 'google-site-verification=WayMakerWooriChurch',
     author: '우리형제교회 (이재진 담임목사)',
   },
   theme: {

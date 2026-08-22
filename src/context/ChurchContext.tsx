@@ -106,12 +106,12 @@ interface ChurchContextType {
 const ChurchContext = createContext<ChurchContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  INFO: 'woori_church_info_v2',
-  SERMONS: 'woori_church_sermons_v2',
-  BULLETINS: 'woori_church_bulletins_v2',
-  NEWS: 'woori_church_news_v2',
-  GALLERY: 'woori_church_gallery_v2',
-  PRAYERS: 'woori_church_prayers_v2',
+  INFO: 'woori_church_info_v3',
+  SERMONS: 'woori_church_sermons_v3',
+  BULLETINS: 'woori_church_bulletins_v3',
+  NEWS: 'woori_church_news_v3',
+  GALLERY: 'woori_church_gallery_v3',
+  PRAYERS: 'woori_church_prayers_v3',
   AUTH: 'woori_church_admin_auth',
 };
 
@@ -129,6 +129,9 @@ export const ChurchProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         const parsed = JSON.parse(saved);
         if (parsed.pastor && (parsed.pastor.name.includes('이진우') || parsed.pastor.name === '이진우 담임목사')) {
           parsed.pastor.name = '이재진 담임목사';
+        }
+        if (parsed.slogan && parsed.slogan.includes('In Christ Alone')) {
+          parsed.slogan = 'Way Maker - 길을 만드시는 주';
         }
         return parsed;
       }
